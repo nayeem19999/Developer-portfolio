@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-secondary{
+    height: 64px;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    
+    padding: 20px 24px;
+}
+.btn-primary{
+    height: 64px;
+    padding: 0 35px 0 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png'),url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+.header-nav{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 0 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+/* banner section */
+.banner-section{
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 200px;
+}
+.banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    
+}
+.banner-paragraph{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+/* about section style */
+.about-me{
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+}
+.common-heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+   
+}
+.aboutMe-description{
+    color: #757575;
+    padding:30px 100px 30px 100px;
+   
+}
+.about-info{
+    display: flex;
+    gap: 30px;
+    padding: 0 100px 0 100px;
+}
+.about-description{
+    text-align: center;
+}
+.icon{
+    margin-right: 10px;
+}
